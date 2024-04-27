@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+This is just a test based on Chad's Blog post "Building a Free Blog with GitHub Pages in Minutes."
