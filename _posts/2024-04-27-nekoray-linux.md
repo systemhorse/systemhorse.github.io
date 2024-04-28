@@ -1,6 +1,6 @@
 # Install nekoray on Ubuntu 24.04
 
-`nekoray` is a Qt-based, cross-platform, GUI client. It supports Shadowsocks, VMess, VLESS, Trojan, TUIC, NaiveProxy, and Hysteria2. The `nekoray` repository is at [https://github.com/MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray), and the NeokRay documentation is at [https://matsuridayo.github.io](https://matsuridayo.github.io).
+`nekoray` is a Qt-based, cross-platform, GUI client. It supports Shadowsocks, VMess, VLESS, Trojan, TUIC, NaiveProxy, and Hysteria2. The `nekoray` repository is at [https://github.com/MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray), and the `nekoray` documentation is at [https://matsuridayo.github.io](https://matsuridayo.github.io).
 
 This post show how to install `nekoray` on Ubuntu 24.04.
 
