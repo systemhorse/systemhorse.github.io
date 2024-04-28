@@ -2,9 +2,9 @@
 
 `sing-box` uses JSON for configuration files. Details of the configuration possibilities are at [https://sing-box.sagernet.org/configuration](https://sing-box.sagernet.org/configuration). Example configurations are at [https://github.com/chika0801/sing-box-examples](https://github.com/chika0801/sing-box-examples).
 
-Install `sing-box` as per the instructions at [https://sing-box.sagernet.org/installation/package-manager](https://sing-box.sagernet.org/installation/package-manager).
+Here's how to install sing-box on a Debian/Ubntu server and configure it for Shadowsocks 2022.
 
-Donwload the developer's signing key:
+Download the developer's signing key:
 
 ```
 curl -fsSL https://sing-box.app/gpg.key -o /etc/apt/keyrings/sagernet.asc
