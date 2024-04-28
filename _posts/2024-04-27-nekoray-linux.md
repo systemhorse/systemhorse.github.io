@@ -1,32 +1,38 @@
 # Install nekoray on Ubuntu 24.04
 
-`nekoray` is a Qt-based, cross-platform, GUI client. It supports Shadowsocks, VMess, VLESS, Trojan, TUIC, NaiveProxy, and Hysteria2. The `nekoray` repository is at https://github.com/MatsuriDayo/nekoray, and the NeokRay documentation is at https://matsuridayo.github.io.
+`nekoray` is a Qt-based, cross-platform, GUI client. It supports Shadowsocks, VMess, VLESS, Trojan, TUIC, NaiveProxy, and Hysteria2. The `nekoray` repository is at [https://github.com/MatsuriDayo/nekoray](https://github.com/MatsuriDayo/nekoray), and the NeokRay documentation is at [https://matsuridayo.github.io](https://matsuridayo.github.io).
 
 This post show how to install `nekoray` on Ubuntu 24.04.
 
 When using Debian-based distributions, it is recommended to use the `.deb` package for installation. 
 
-Determine the most recent release from https://github.com/MatsuriDayo/nekoray/releases.
+Determine the most recent release from [https://github.com/MatsuriDayo/nekoray/releases](https://github.com/MatsuriDayo/nekoray/releases).
 
-Open a terminal and issue the commands:
+Open a terminal. Change into your `Downloads` directory:
 
 ```
 cd ~/Downloads
 ```
 
+Install `cURL`:
+
 ```
 sudo apt install curl
 ```
+
+Download the Debian/Ubuntu package for your chosen release of `nekoray`:
 
 ```
 curl -L https://github.com/MatsuriDayo/nekoray/releases/download/3.26/nekoray-3.26-2023-12-09-debian-x64.deb -O
 ```
 
+Install `nekoray` and its prerequisite packages:
+
 ```
 sudo apt install ./nekoray-3.26-2023-12-09-debian-x64.deb
 ```
 
-The following NEW packages will be installed:
+The following packages will be installed:
 
 * `libdouble-conversion3`
 * `libmd4c0`
