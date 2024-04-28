@@ -69,3 +69,11 @@ The first time in, you are asked to choose between `Xray` and `sing-box` as your
 The NekoBox management panel appears for the first time.
 
 ![nekoray management panel](/assets/images/nekoray-linux-3.png)
+
+Add a new server profile:
+
+![Add new server profile in nekoray](/assets/images/nekoray-linux-4.png)
+
+Enable system proxy, and start the connection to the server:
+
+![Start connection to server in nekoray](/assets/images/nekoray-linux-5.png)
