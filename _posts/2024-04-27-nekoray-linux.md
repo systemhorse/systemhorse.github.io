@@ -52,8 +52,14 @@ The following NEW packages will be installed:
 
 `nekoray` is added to your apps.
 
+![nekoray app icon](/assets/images/nekoray-linux-1.png)
+
 Click the `nekoray` icon to launch `nekoray`.
 
-The first time in, you are asked to choose between `Xray` and `sing-box` as your core. You can change this later if you need to.
+The first time in, you are asked to choose between `Xray` and `sing-box` as your core. You can change this choice later if you need to.
 
-The NekoBox management panel appears.
+![nekoray initial choice of core](/assets/images/nekoray-linux-2.png)
+
+The NekoBox management panel appears for the first time.
+
+![nekoray management panel](/assets/images/nekoray-linux-3.png)
