@@ -109,19 +109,21 @@ Example:
 ```
 Save the ShadowSocks configuration file.
 
+Either start the local client from the command line, or run as a systemd service.
+
 ### Run from command line
 
-Either start the local client from the command line:
+Start the local client from the command line:
 
 ```shell
 snap run shadowsocks-rust.sslocal-daemon -c /var/snap/shadowsocks-rust/common/etc/shadowsocks-rust/config.json
 ```
 
-And leave the terminal window open with `shadowsocks-rust.sslocal-daemon` running in it.
+Leave the terminal window open with `shadowsocks-rust.sslocal-daemon` running in it.
 
 ### Run as systemd service
 
-Alternatively override the generated systemd service and configure startup options:
+Override the generated systemd service and configure startup options, as explained in the [README](https://github.com/shadowsocks/shadowsocks-rust):
 
 ```shell
 sudo systemctl edit snap.shadowsocks-rust.sslocal-daemon.service
@@ -130,13 +132,13 @@ sudo systemctl edit snap.shadowsocks-rust.sslocal-daemon.service
 Start the service:
 
 ```shell
-snap start --enable shadowsocks-rust.sslocal-daemon
+sudo snap start --enable shadowsocks-rust.sslocal-daemon
 ```
 
 Check the service status:
 
 ```shell
-systemctl status snap.shadowsocks-rust.sslocal-daemon.service
+sudo systemctl status snap.shadowsocks-rust.sslocal-daemon.service
 ```
 
 ### Use the proxy
