@@ -109,6 +109,8 @@ Example:
 ```
 Save the ShadowSocks configuration file.
 
+### Run from command line
+
 Either start the local client from the command line:
 
 ```shell
@@ -117,10 +119,26 @@ snap run shadowsocks-rust.sslocal-daemon -c /var/snap/shadowsocks-rust/common/et
 
 And leave the terminal window open with `shadowsocks-rust.sslocal-daemon` running in it.
 
-Alternatively, override the generated systemd service (to configure startup options):
+### Run as systemd service
+
+Alternatively override the generated systemd service and configure startup options:
 
 ```shell
 sudo systemctl edit snap.shadowsocks-rust.sslocal-daemon.service
 ```
+
+Start the service:
+
+```shell
+snap start --enable shadowsocks-rust.sslocal-daemon
+```
+
+Check the service status:
+
+```shell
+systemctl status snap.shadowsocks-rust.sslocal-daemon.service
+```
+
+### Use the proxy
 
 Either configure Firefox to use the SOCKS v5 proxy server on `127.0.0.1` port `1080`, or configure system-wide networking  to use the SOCKS v5 proxy server on `127.0.0.1` port `1080`.
